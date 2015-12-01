@@ -1,8 +1,8 @@
 <?php
-mysql_connect('localhost','root','Ex1h7G');
-mysql_select_db("now_serilals");
 
-mysql_query("SET NAMES utf8") or die(mysql_error());
+
+
+
 /*switch ($_REQUEST['request']) {
 	case 'update_serials':*/
 	mysql_query("TRUNCATE TABLE update_serials")or die(mysql_error());
